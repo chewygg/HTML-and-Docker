@@ -65,14 +65,14 @@ Agora, que você leu a documentação e garantiu que seu desktop cumpre todos os
 * [Docker para MAC](https://docs.docker.com/docker-for-mac/install/)
 * [Docker para Linux](https://docs.docker.com/engine/install/)
 
- :exclamation: No caso do Windows 10, por experiência própria, recomendo muito que sigam a documentação da própria Microsoft sobre a instalação do [WSL 1](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) e do [WSL 2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-2---update-to-wsl-2), onde, tanto a parte prática, quanto a teórica estão muito bem explicadas.  :exclamation:
+ :exclamation:  No caso do Windows 10, por experiência própria, recomendo muito que sigam a documentação da própria Microsoft sobre a instalação do [WSL 1](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) e do [WSL 2](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-2---update-to-wsl-2), onde, tanto a parte prática, quanto a teórica estão muito bem explicadas.  :exclamation:
 
 ### :package: Installation  :package:
 
-Com o Docker instalado, vamo ao Docker Hub procurar uma imagem que irá servir de alicerce para sustentar minha página HTML.
-Neste caso, será um servidor Apache.
+Com o Docker instalado, vamos ao Docker Hub procurar uma imagem que será alicerce para sustentar minha página HTML.
+Neste caso, será uma imagem de um servidor Apache.
 
-O Docker trabalha com imagens, então podemos realizar o download de uma imagem de um servidor Apache para posteriormente colocarmos esta nossa infraestrutura backend em execução.
+O Docker trabalha com imagens, então podemos realizar o download de uma do Apache para posteriormente colocarmos esta nosso backend em execução.
 Mais sobre esta imagem pode ser visto em [https://hub.docker.com/_/httpd](https://hub.docker.com/_/httpd)
 
 * Download da imagem httpd 
