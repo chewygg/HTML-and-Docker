@@ -7,7 +7,7 @@ Registro de estudo - Como preparar um ambiente rapidamente para testar sua pági
 <br />
 <p align="center">
   <a href="https://github.com/chewygg/HTML-and-Docker">
-    <img src="images/apache-docker.png" alt="Logo" width="80" height="80">
+    <img src="images/apache-docker.png" alt="Logo" width="400" height="200">
   </a>
 
   <h3 align="center">  :page_facing_up: HTML & Docker  :whale: </h3>
