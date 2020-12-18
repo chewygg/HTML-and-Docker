@@ -14,7 +14,6 @@ Registro de estudo - Como preparar um ambiente rapidamente para testar sua pági
   <p align="center">
     Técnica simples e muito útil para desenvolvedores e para aqueles que querem se tornar um!
     <br />
-    <a href="https://github.com/chewygg/HTML-and-Docker/README.md"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </p>
@@ -23,7 +22,7 @@ Registro de estudo - Como preparar um ambiente rapidamente para testar sua pági
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>INDICE</summary>
+  <summary>SUMMARY</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project </a>
@@ -91,7 +90,7 @@ Liste as imagens que temos baixadas:
 docker image ls
  ```
 A resposta deve ser parecida com isso:
-[![Listar Imagens][output-imagels]]
+![Listar Imagens][output-imagels]
  
 Para rodar a imagem, ou seja, torna-la um container, basta usar o seguinte comando:
 
@@ -124,7 +123,7 @@ docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer>
 ### Inserindo a página HTML no servidor
 
 Observe que após o comando anterior, o diretório **/site** foi criado no meu diretório atual:
-[![Listar diretorio site][dir-site]]
+![Listar diretorio site][dir-site]
 
 <!-- CONTACT -->
 ## Contact
