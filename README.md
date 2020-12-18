@@ -49,7 +49,7 @@ Registro de estudo - Como preparar um ambiente rapidamente para testar sua pági
 
 Me aventurando no mundo dos containers notei o quão fácil foi subir uma página HTML localmente usando Docker.
 Decidi então, registrar meus estudos e mostrar o quão fácil pode ser fazer isso, sem precisar de muitos conhecimentos técnicos em Linux ou em Docker.
-Passarei rapidamente sobre alguns conceitos, caso queiram conhecer mais, não exitem em ler a documentação oficial do Docker em  [https://docs.docker.com/](https://docs.docker.com/)).
+Passarei rapidamente sobre alguns conceitos, caso queiram conhecer mais, não exitem em ler a documentação oficial do Docker em  [https://docs.docker.com/](https://docs.docker.com/).
 
 ### :wrench:  :nut_and_bolt:  Built With   :nut_and_bolt: :wrench: 
 
