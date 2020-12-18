@@ -129,8 +129,8 @@ Basta mudar para este diretório em questão e copiarmos para dentro dele, ou cr
 No meu caso, criei um HTML simples de um mini currículo, porém, daqui em diante, o seus conhecimentos de desenvolvimento Web que devem assumir, toda a infraestrutra do Apache já está pronta!
 
 ```sh
-wget <url> 
-cp ./<url> $PWD/site
+wget -L https://raw.githubusercontent.com/chewygg/HTML-and-Docker/main/welcome.html
+mv welcome.html $PWD/site
 ```
 
 Finalmente, indo ao navegador, já é possível visualizar a página HTML:
