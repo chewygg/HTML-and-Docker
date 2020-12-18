@@ -52,13 +52,13 @@ Me aventurando no mundo dos containers notei o quão fácil foi subir uma págin
 Decidi então, registrar meus estudos e mostrar o quão fácil pode ser fazer isso, sem precisar de muitos conhecimentos técnicos em Linux ou em Docker.
 Passarei rapidamente sobre alguns conceitos, caso queiram conhecer mais, não exitem em ler a documentação oficial do Docker em  [https://docs.docker.com/](https://docs.docker.com/)).
 
-### Built With
+### :wrench:  :nut_and_bolt:  Built With   :nut_and_bolt: :wrench: 
 
 O Processo que será mostrado a seguir pode ser feito em qualquer desktop que cumpra os requisitos mínimos do docker(podem ser encontrados na [documentação](https://docs.docker.com/get-docker/)).
 E é claro, sua página HTML.
 
 <!-- GETTING STARTED -->
-## Getting Started
+##  :rocket: Getting Started  :rocket:
 
 Agora, que você leu a documentação e garantiu que seu desktop cumpre todos os pré requisitos exigidos pelo Docker, basta instala-lo.
 
