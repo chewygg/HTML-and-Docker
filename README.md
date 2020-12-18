@@ -39,7 +39,6 @@ Registro de estudo - Como preparar um ambiente rapidamente para testar sua pági
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -52,13 +51,13 @@ Me aventurando no mundo dos containers notei o quão fácil foi subir uma págin
 Decidi então, registrar meus estudos e mostrar o quão fácil pode ser fazer isso, sem precisar de muitos conhecimentos técnicos em Linux ou em Docker.
 Passarei rapidamente sobre alguns conceitos, caso queiram conhecer mais, não exitem em ler a documentação oficial do Docker em  [https://docs.docker.com/](https://docs.docker.com/)).
 
-### Built With
+### :wrench:  :nut_and_bolt:  Built With   :nut_and_bolt: :wrench: 
 
 O Processo que será mostrado a seguir pode ser feito em qualquer desktop que cumpra os requisitos mínimos do docker(podem ser encontrados na [documentação](https://docs.docker.com/get-docker/)).
 E é claro, sua página HTML.
 
 <!-- GETTING STARTED -->
-## Getting Started
+##  :rocket: Getting Started  :rocket:
 
 Agora, que você leu a documentação e garantiu que seu desktop cumpre todos os pré requisitos exigidos pelo Docker, basta instala-lo.
 
@@ -82,7 +81,7 @@ Mais sobre esta imagem pode ser visto em [https://hub.docker.com/_/httpd](https:
   ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+##  :bow:  Usage  :bow:
 
 Já temos o Docker e uma imagem de um servidor Apache instalados, basta colocar tudo para funcionar!
 Liste as imagens que temos baixadas:
@@ -138,18 +137,11 @@ Finalmente, indo ao navegador, já é possível visualizar a página HTML:
 ![curriculo]: images/curriculo.png
 
 <!-- CONTACT -->
-## Contact
+## :speech_balloon:  Contact  :speech_balloon:
 
 Gabriel Guedes - [gabriel.guedes2001@gmail.com](gabriel.guedes2001@gmail.com)
 
 Project Link: [https://github.com/chewygg/HTML-and-Docker](https://github.com/chewygg/HTML-and-Docker/)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
