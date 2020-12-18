@@ -104,26 +104,38 @@ Porém, como o container apartado do restante do sistema, ainda não conseguirí
 ```sh
 docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer> -p 80:80 httpd
 ```
-:mag: Agora, vamos a explicação de cada opção e argumento  :mag:
+:mag: Agora, vamos a explicação de cada opção e argumento :mag:
 
-:mag: **-d**  :point_right: Executa o container de maneira que não ocupe o terminal, ou seja, em background;
+:mag: **-d** :point_right: Executa o container de maneira que não ocupe o terminal, ou seja, em background;
 
-:mag: **-i**  :point_right: Permite que interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
+:mag: **-i** :point_right: Permite que interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
 
-:mag: **-t**  :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
+:mag: **-t** :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
 
-:mag: **-v**  :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** deremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
+:mag: **-v** :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** deremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
 
-:mag: **--name**  :point_right: declara um nome para um container;  
+:mag: **--name** :point_right: declara um nome para um container;  
 
-:mag: **-p**  :point_right:  Faz o mapeamento de portas do container para a máquina que está rodando o Docker, sem esta opção, o meu computador não entenderia que ao fazer uma requisição para aquele IP na porta 80, deveria me devolver algo dentro do servidor Apache! Por isso faz-se necessário declarar que requisições para a porta 80, devem ser redirecionadas à porta 80 do container Apache;
+:mag: **-p** :point_right:  Faz o mapeamento de portas do container para a máquina que está rodando o Docker, sem esta opção, o meu computador não entenderia que ao fazer uma requisição para aquele IP na porta 80, deveria me devolver algo dentro do servidor Apache! Por isso faz-se necessário declarar que requisições para a porta 80, devem ser redirecionadas à porta 80 do container Apache;
 
-:mag: **httpd**  :point_right: E por fim, **httpd** é apenas o nome da imagem que irá gerar o container.
+:mag: **httpd** :point_right: E por fim, **httpd** é apenas o nome da imagem que irá gerar o container.
 
 ### Inserindo a página HTML no servidor
 
 Observe que após o comando anterior, o diretório **/site** foi criado no meu diretório atual:
 ![Listar diretorio site][dir-site]
+
+Basta mudar para este diretório em questão e copiarmos para dentro dele, ou criarmos um arquivo agora.
+
+No meu caso, criei um HTML simples de um mini currículo, porém, daqui em diante, o seus conhecimentos de desenvolvimento Web que devem assumir, toda a infraestrutra do Apache já está pronta!
+
+```sh
+wget <url> 
+cp ./<url> $PWD/site
+```
+
+Finalmente, indo ao navegador, já é possível visualizar a página HTML:
+![curriculo]: images/curriculo.png
 
 <!-- CONTACT -->
 ## Contact
@@ -146,3 +158,4 @@ Project Link: [https://github.com/chewygg/HTML-and-Docker](https://github.com/ch
 [linkedin-url]: https://www.linkedin.com/in/gguedescruz/
 [output-imagels]: images/output-imagels.png
 [dir-site]: images/dir-site.png
+[curriculo]: images/curriculo.png
