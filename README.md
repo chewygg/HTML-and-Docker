@@ -91,7 +91,7 @@ Liste as imagens que temos baixadas:
 docker image ls
  ```
 A resposta deve ser parecida com isso:
-[![Listar Imagens][output-imagels]](https://example.com)
+[![Listar Imagens][output-imagels]]
  
 Para rodar a imagem, ou seja, torna-la um container, basta usar o seguinte comando:
 
@@ -107,24 +107,24 @@ docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer>
 ```
 :mag: Agora, vamos a explicação de cada opção e argumento  :mag:
 
-:bulb: **-d**  :point_right: Executa o container de maneira que não ocupe o terminal, ou seja, em background;
+:mag: **-d**  :point_right: Executa o container de maneira que não ocupe o terminal, ou seja, em background;
 
-:bulb: **-i**  :point_right: Permite que interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
+:mag: **-i**  :point_right: Permite que interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
 
-:bulb: **-t**  :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
+:mag: **-t**  :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
 
-:bulb: **-v**  :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** deremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
+:mag: **-v**  :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** deremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
 
-:bulb: **--name**  :point_right: declara um nome para um container;  
+:mag: **--name**  :point_right: declara um nome para um container;  
 
-:bulb: **-p**  :point_right:  Faz o mapeamento de portas do container para a máquina que está rodando o Docker, sem esta opção, o meu computador não entenderia que ao fazer uma requisição para aquele IP na porta 80, deveria me devolver algo dentro do servidor Apache! Por isso faz-se necessário declarar que requisições para a porta 80, devem ser redirecionadas à porta 80 do container Apache;
+:mag: **-p**  :point_right:  Faz o mapeamento de portas do container para a máquina que está rodando o Docker, sem esta opção, o meu computador não entenderia que ao fazer uma requisição para aquele IP na porta 80, deveria me devolver algo dentro do servidor Apache! Por isso faz-se necessário declarar que requisições para a porta 80, devem ser redirecionadas à porta 80 do container Apache;
 
-:bulb: **httpd**  :point_right: E por fim, **httpd** é apenas o nome da imagem que irá gerar o container.
+:mag: **httpd**  :point_right: E por fim, **httpd** é apenas o nome da imagem que irá gerar o container.
 
 ### Inserindo a página HTML no servidor
 
 Observe que após o comando anterior, o diretório **/site** foi criado no meu diretório atual:
-dir-site
+[![Listar diretorio site][dir-site]]
 
 <!-- CONTACT -->
 ## Contact
