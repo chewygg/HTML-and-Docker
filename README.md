@@ -107,7 +107,7 @@ docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer>
 
 :mag: **-d** :point_right: Executa o container de maneira que não ocupe o terminal, ou seja, em background;
 
-:mag: **-i** :point_right: Permite que interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
+:mag: **-i** :point_right: Permite interação de entrada (stdin) com o container, ou seja, que interprete aquilo que digitarmos;
 
 :mag: **-t** :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
 
