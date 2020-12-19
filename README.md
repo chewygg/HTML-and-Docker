@@ -111,7 +111,7 @@ docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer>
 
 :mag: **-t** :point_right: Aloca uma TTY para que as interações da opção **-i** sejam reconhecidas e lidas por um interpretador de linha de comando;
 
-:mag: **-v** :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** deremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
+:mag: **-v** :point_right: Permite declarar um volume de montagem, e o argumento que o segue **"$PWD"/site:/usr/local/apache2/htdocs/** nos diz que tudo que colocarmos no diretório **/site** será também "mapeado" para **/usr/local/apache2/htdocs/**, portanto, se colocarmos nosso HTML no diretório **/site** teremos o mesmo documento sendo sustentado pela estruturado do apache, ou seja, teremos um site funcionando localmente;
 
 :mag: **--name** :point_right: declara um nome para um container;  
 
