@@ -72,7 +72,7 @@ Agora, que você leu a documentação e garantiu que seu desktop cumpre todos os
 Com o Docker instalado, vamos ao Docker Hub procurar uma imagem que será alicerce para sustentar minha página HTML.
 Neste caso, será uma imagem de um servidor Apache.
 
-O Docker trabalha com imagens, então podemos realizar o download de uma do Apache para posteriormente colocarmos esta nosso backend em execução.
+O Docker trabalha com imagens, então podemos realizar o download de uma do Apache para posteriormente colocarmos este nosso backend em execução.
 Mais sobre esta imagem pode ser visto em [https://hub.docker.com/_/httpd](https://hub.docker.com/_/httpd)
 
 * Download da imagem httpd 
