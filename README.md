@@ -98,7 +98,7 @@ docker run httpd
 ```
 
 ### Iniciando o Servidor Apache
-Porém, como o container apartado do restante do sistema, ainda não conseguiríamos fazer muito apenas com esse comando. Para resolvermos isso podemos usar as seguintes opções e argumentos:
+Como o container é apartado do restante do sistema, ainda não conseguiríamos fazer muito apenas com esse comando do tópico anterior. Para resolvermos isso podemos usar as seguintes opções e argumentos:
 
 ```sh
 docker run -dit -v "$PWD"/site:/usr/local/apache2/htdocs/ --name <nome qualquer> -p 80:80 httpd
